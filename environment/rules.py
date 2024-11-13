@@ -1,12 +1,28 @@
 # environment/rules.py
 
 class GameRules:
-    def __init__(self, field):
+    def __init__(self, field,log_file):
+        self.log_file = str(log_file)
         self.field = field
         self.score = {'team_a': 0, 'team_b': 0}
         self.fouls = {'team_a': 0, 'team_b': 0}
         self.yellow_cards = {}
         self.red_cards = {}
+        self.bench = {'team_a': [], 'team_b': []}  # Bench players
+        self.in_game_players = {'team_a': [], 'team_b': []}
+
+
+    def handle_substitution(self, player, team):
+        if player.stamina < 20 and self.bench[team]:
+            new_player = self.bench[team].pop()
+            self.in_game_players[team].append(new_player)
+            self.in_game_players[team].remove(player)
+            print(f"Player {player.player_id} substituted by Player {new_player.player_id} for {team}.")
+
+    def log_event(self, message):
+        with open(self.log_file, 'a') as f:
+            f.write("[Rules] " + message + '\n')
+        print(message)  # Keep printing to the console for visibility as well
 
     def check_offside(self, player_position, ball_position, team, opposing_players):
         """Check if a player is in an offside position"""
@@ -23,7 +39,7 @@ class GameRules:
         if team not in self.score:
             raise ValueError(f"Invalid team name: {team}")
         self.score[team] += 1
-        print(f"Goal awarded to {team}! Current score: {self.score}")
+        self.log_event(f"Goal awarded to {team}! Current score: {self.score}")
 
     def commit_foul(self, team, player_id, position):
         """Record a foul committed by a team"""
@@ -34,26 +50,26 @@ class GameRules:
             self.yellow_cards[player_id] += 1
             if self.yellow_cards[player_id] >= 2:
                 self.red_cards[player_id] = True
-                #print(f"Player {player_id} has received a red card!")
+                self.log_event(f"Player {player_id} has received a red card!")
 
         # Check if foul occurred inside penalty area
         if self.field.is_in_penalty_area(position):
-            pass#print(f"Penalty awarded to {'team_b' if team == 'team_a' else 'team_a'}")
+            self.log_event(f"Penalty awarded to {'team_b' if team == 'team_a' else 'team_a'}")
 
     def handle_throw_in(self, ball_position, team):
         """Handle throw-in after ball goes out of bounds over the sideline"""
         if self.field.is_in_sideline_area(ball_position):
-            pass#print(f"Throw-in awarded to {team}. A player is assigned to take it.")
+            self.log_event(f"Throw-in awarded to {team}. A player is assigned to take it.")
 
     def handle_corner_kick(self, ball_position, last_team):
         """Handle corner kick scenario"""
         if ball_position[0] <= 0 or ball_position[0] >= self.field.length:
             if last_team == 'defending':
-                pass#print("Corner kick awarded to attacking team.")
+                self.log_event("Corner kick awarded to attacking team.")
 
     def handle_free_kick(self, foul_position, team):
         """Handle free kick awarded after a foul"""
-        #print(f"Free kick awarded to {team} at position {foul_position}")
+        self.log_event(f"Free kick awarded to {team} at position {foul_position}")
 
     def check_out_of_bounds(self, ball_position):
         """Check if the ball is out of bounds"""
@@ -65,7 +81,7 @@ class GameRules:
     def substitution(self, player, new_player):
         """Substitute a player"""
         if player.stamina < 20:
-            #print(f"Player {player.player_id} is being substituted.")
+            self.log_event(f"Player {player.player_id} is being substituted.")
             return new_player
         return player
 
