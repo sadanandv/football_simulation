@@ -63,7 +63,7 @@ class Player:
         self.position, self.velocity = physics_engine.calculate_movement(
             self.position, self.velocity, effective_acceleration, dt, self.stamina
         )
-        self.stamina = physics_engine.update_stamina(self.stamina, dt, effort_level=1.2, action_type="dribble")
+        self.stamina = physics_engine.update_stamina(self.stamina, dt, effort_level=1.2, action_type="dribble", attr = self.physical_attributes['stamina'])
 
     def pass_ball(self, ball, target_position, force):
         """Pass the ball to a teammate."""
@@ -86,6 +86,8 @@ class Player:
 
     def move_to_position(self, target_position, physics_engine, dt):
         """Move to a target position."""
+        
+
         if np.linalg.norm(self.position - target_position) < 1e-3:
             return
 
@@ -96,12 +98,14 @@ class Player:
         self.position, self.velocity = physics_engine.calculate_movement(
             self.position, self.velocity, acceleration, dt, self.stamina
         )
-        self.stamina = physics_engine.update_stamina(self.stamina, dt, effort_level=1.0, action_type="sprint")
+        self.stamina = physics_engine.update_stamina(self.stamina, dt, effort_level=1.0, action_type="sprint", attr = self.physical_attributes['stamina'])
 
     def make_decision(self, dt):
         """Make a decision based on the player's current state and role."""
         if self.agent:
             self.agent.decide_action(self, dt)  # Pass the player instance and dt to decide_action
+
+
 
 if __name__ == "__main__":
     from ball import Ball
