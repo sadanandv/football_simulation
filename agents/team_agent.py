@@ -7,12 +7,24 @@ from environment.physics_engine import PhysicsEngine
 from environment.rules import GameRules
 
 class TeamAgent:
-    def __init__(self, players,field,rules):
+    def __init__(self, players,field,rules,log_file):
+        self.log_file = log_file
         self.players = players
         self.field = field
         self.rules = rules
         self.player_id_to_index = {player.player_id: idx for idx, player in enumerate(players)}
         self.chemistry_matrix = self.initialize_chemistry_matrix()
+        self.team_strategy = 'possession'  # Default strategy
+
+
+    def set_team_strategy(self, strategy):
+        if strategy in ['possession', 'counter-attack', 'high pressing']:
+            self.team_strategy = strategy
+
+    def log_event(self, message):
+        with open(self.log_file, 'a') as f:
+            f.write("[Agent] " + message + '\n')
+        print(message)  # Keep printing to the console for visibility as well
 
     def initialize_chemistry_matrix(self):
         """Initialize the chemistry matrix based on each player's chemistry with others."""
@@ -43,11 +55,29 @@ class TeamAgent:
 
         role = player.role
         action_probability = np.random.rand()
+
+        if self.team_strategy == 'counter-attack':
+            if player.role == 'attacker' and np.random.rand() < 0.8:
+                self.attempt_shot(player, dt)
         
         # Rest if stamina is too low
         if player.stamina < 10:
             self.rest(player)
             return
+        
+        # Get opponent information and field state
+        opponents = [p for p in self.players if p.team != player.team]
+        opponent_distances = [np.linalg.norm(player.position - op.position) for op in opponents]
+        nearest_opponent_distance = min(opponent_distances) if opponent_distances else float('inf')
+
+        # Simple heuristics for adaptive decision making
+        if player.role == 'attacker':
+            if nearest_opponent_distance < 10 and player.stamina > 20:
+                self.attempt_pass(player, dt)  # Pass if surrounded by opponents
+            elif np.linalg.norm(player.position - np.array([105, 34])) < 20:  # Close to goal
+                self.attempt_shot(player, dt)  # Shoot if near goal
+            else:
+                self.move_to_position(player, 'attacker', dt)
 
         if player.role == 'goalkeeper':
             self.goalkeeper_action(player, action_probability, dt)
@@ -81,7 +111,7 @@ class TeamAgent:
             return
         player.stamina += 5
         player.stamina = min(player.stamina, 100)
-        #print(f"Player {player.player_id} is resting to regain stamina. Current stamina: {player.stamina}")
+        self.log_event(f"Player {player.player_id} is resting to regain stamina. Current stamina: {player.stamina}")
 
     def goalkeeper_action(self, player, action_probability, dt):
         """Define specific actions for the goalkeeper."""
@@ -101,12 +131,14 @@ class TeamAgent:
         elif role == 'midfielder':
             # Move towards the midfield area
             target_position = np.array([np.random.uniform(40, 70), np.random.uniform(0, 68)])
+        elif role == 'attacker':
+            target_position = np.array([np.random.uniform(70, 105), np.random.uniform(0, 68)])
         else:
             # Default to midfield
             target_position = np.array([52.5, 34.0])
 
         player.move_to_position(target_position, PhysicsEngine(), dt)
-        #print(f"Player {player.player_id} moved to position {player.position} as per their role.")
+        self.log_event(f"Player {player.player_id} moved to position {player.position} as per their role.")
 
     def attempt_pass(self, player, dt):
         """Attempt to pass the ball to a teammate."""
@@ -122,7 +154,7 @@ class TeamAgent:
         if player.stamina > 5:
             player.pass_ball(Ball(), target_player.position, force=10)
             player.stamina -= 5
-            #print(f"Player {player.player_id} passed the ball to Player {target_player.player_id} at position {target_player.position}")
+            self.log_event(f"Player {player.player_id} passed the ball to Player {target_player.player_id} at position {target_player.position}")
 
     def attempt_tackle(self, player, dt):
         """Attempt to tackle an opponent if they are within range."""
@@ -132,16 +164,16 @@ class TeamAgent:
 
         target_opponent = opponents[0]  # Tackle the nearest opponent
         if player.tackle(target_opponent):
-            print(f"Player {player.player_id} successfully tackled Player {target_opponent.player_id}")
+            self.log_event(f"Player {player.player_id} successfully tackled Player {target_opponent.player_id}")
         else:
-            print(f"Player {player.player_id} failed to tackle Player {target_opponent.player_id}")
+            self.log_event(f"Player {player.player_id} failed to tackle Player {target_opponent.player_id}")
 
     def dribble(self, player, dt):
         """Player dribbles towards a more advanced position."""
         if player.stamina > 10:
             acceleration = np.array([0.1, 0.05])
             player.dribble(acceleration, PhysicsEngine(), dt)
-            #print(f"Player {player.player_id} is dribbling. Current position: {player.position}")
+            self.log_event(f"Player {player.player_id} is dribbling. Current position: {player.position}")
             player.stamina -= 10
 
     def attempt_shot(self, player, dt):
@@ -157,7 +189,7 @@ class TeamAgent:
             # Determine if shot is successful
             if np.random.rand() < shot_success_prob:
                 # Player successfully scores a goal
-                print(f"Player {player.player_id} scores a goal for {player.team}!")
+                self.log_event(f"Player {player.player_id} scores a goal for {player.team}!")
 
                 # Update the game score using the game rules reference
                 self.rules.award_goal(player.team)
