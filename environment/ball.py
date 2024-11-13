@@ -28,10 +28,16 @@ class Ball:
             direction = direction / np.linalg.norm(direction)
         self.kick(force, direction)
 
+
     def update_position(self, dt):
-        """Update ball position based on velocity"""
         self.position += self.velocity * dt
-        self.velocity -= self.velocity * self.friction
+        if self.position[0] < 0 or self.position[0] > 105:  # Bounce on horizontal boundaries
+            self.velocity[0] = -self.velocity[0]
+        if self.position[1] < 0 or self.position[1] > 68:  # Bounce on vertical boundaries
+            self.velocity[1] = -self.velocity[1]
+
+        self.velocity -= self.velocity * self.friction  # Apply friction
+
 
     def get_position(self):
         return self.position
