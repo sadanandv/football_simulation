@@ -1,0 +1,792 @@
+[SIMULATION]Before Game:	 Team A:0 - Team B:0
+[SIMULATION]Starting Half 1
+[Agent] Player 0 passed the ball to Player 1 at position [10. 34.]
+[Agent] Player 1 passed the ball to Player 0 at position [ 0. 34.]
+[Agent] Player 3 moved to position [416.93475959 641.19147871] as per their role.
+[Agent] Player 4 passed the ball to Player 5 at position [50. 34.]
+[Agent] Player 5 moved to position [-446.31108485 -487.60838476] as per their role.
+[Agent] Player 6 moved to position [-83.84353515 739.4849661 ] as per their role.
+[Agent] Player 7 is dribbling. Current position: [288.50981883 143.25490941]
+[Agent] Player 8 is dribbling. Current position: [336.38664193 162.19332096]
+[Agent] Player 9 scores a goal for team_a!
+[Agent] Player 9 passed the ball to Player 10 at position [100.  34.]
+[Agent] Player 10 scores a goal for team_a!
+[Agent] Player 10 is dribbling. Current position: [263.10370598 115.55185299]
+[Agent] Player 12 passed the ball to Player 14 at position [70. 34.]
+[Agent] Player 14 moved to position [-649.08305197   -2.32580866] as per their role.
+[Agent] Player 15 moved to position [-599.87273564 -254.04161636] as per their role.
+[Agent] Player 16 passed the ball to Player 20 at position [10. 34.]
+[Agent] Player 17 is dribbling. Current position: [268.53666719 148.26833359]
+[Agent] Player 18 passed the ball to Player 12 at position [90. 34.]
+[Agent] Player 19 is dribbling. Current position: [273.34487571 160.67243786]
+[Agent] Player 20 moved to position [ 660.56811668 -274.48196958] as per their role.
+[Agent] Player 20 moved to position [ 724.15674007 -289.9194945 ] as per their role.
+[Agent] Player 21 scores a goal for team_b!
+[Agent] Player 21 moved to position [ -8.2818811  635.42432227] as per their role.
+[SIMULATION]Half 1, Step 0: Ball position: [-1077.61188418    34.        ]
+[SIMULATION]Goal by team_a! Game resumes after reset.
+[Agent] Player 3 passed the ball to Player 5 at position [-446.31108485 -487.60838476]
+[Agent] Player 4 passed the ball to Player 5 at position [-446.31108485 -487.60838476]
+[Agent] Player 5 moved to position [-504.12314347 -519.4813577 ] as per their role.
+[Agent] Player 6 passed the ball to Player 10 at position [263.10370598 115.55185299]
+[Agent] Player 7 is dribbling. Current position: [656.9596645  327.47983225]
+[Agent] Player 8 moved to position [ 34.41836646 110.48527982] as per their role.
+[Agent] Player 9 scores a goal for team_a!
+[Agent] Player 9 is dribbling. Current position: [121.52481554  49.76240777]
+[Agent] Player 10 moved to position [ 11.09265292 -51.79010145] as per their role.
+[Agent] Player 10 passed the ball to Player 5 at position [-504.12314347 -519.4813577 ]
+[Agent] Player 11 passed the ball to Player 14 at position [-649.08305197   -2.32580866]
+[Agent] Player 12 passed the ball to Player 17 at position [268.53666719 148.26833359]
+[Agent] Player 13 passed the ball to Player 15 at position [-599.87273564 -254.04161636]
+[Agent] Player 14 moved to position [-711.52429102   19.72953856] as per their role.
+[Agent] Player 15 passed the ball to Player 16 at position [50. 34.]
+[Agent] Player 16 passed the ball to Player 15 at position [-599.87273564 -254.04161636]
+[Agent] Player 17 moved to position [-13.35286535 -38.1882255 ] as per their role.
+[Agent] Player 18 is dribbling. Current position: [152.11044246  95.05522123]
+[Agent] Player 19 passed the ball to Player 16 at position [50. 34.]
+[Agent] Player 20 moved to position [261.90248833 -33.13497942] as per their role.
+[Agent] Player 20 moved to position [-708.48944062  367.81225576] as per their role.
+[Agent] Player 21 moved to position [-23.36082242 686.97290367] as per their role.
+[Agent] Player 21 passed the ball to Player 15 at position [-599.87273564 -254.04161636]
+[SIMULATION]Half 1, Step 1: Ball position: [-1148.03595    34.     ]
+[Agent] Player 0 passed the ball to Player 8 at position [ 34.41836646 110.48527982]
+[Agent] Player 2 passed the ball to Player 5 at position [-504.12314347 -519.4813577 ]
+[Agent] Player 3 passed the ball to Player 5 at position [-504.12314347 -519.4813577 ]
+[Agent] Player 4 moved to position [-558.29584222 -207.2921457 ] as per their role.
+[Agent] Player 5 passed the ball to Player 10 at position [ 11.09265292 -51.79010145]
+[Agent] Player 6 moved to position [-114.58329689  832.37972368] as per their role.
+[Agent] Player 7 passed the ball to Player 5 at position [-504.12314347 -519.4813577 ]
+[Agent] Player 8 is dribbling. Current position: [-132.43253186  126.33592726]
+[Agent] Player 9 moved to position [-183.9876098    97.73411785] as per their role.
+[Agent] Player 10 moved to position [73.27349443  8.95496716] as per their role.
+[Agent] Player 10 is dribbling. Current position: [182.8580064   93.40187098]
+[Agent] Player 14 passed the ball to Player 12 at position [-555.12   34.  ]
+[Agent] Player 15 passed the ball to Player 16 at position [50. 34.]
+[Agent] Player 16 moved to position [-476.56995952  406.69812468] as per their role.
+[Agent] Player 17 passed the ball to Player 12 at position [-555.12   34.  ]
+[Agent] Player 18 is dribbling. Current position: [354.95137182 196.47568591]
+[Agent] Player 19 passed the ball to Player 16 at position [-476.56995952  406.69812468]
+[Agent] Player 20 moved to position [-1247.8902469    596.18983626] as per their role.
+[Agent] Player 20 scores a goal for team_b!
+[Agent] Player 21 moved to position [ 44.28665794 278.18372418] as per their role.
+[Agent] Player 21 moved to position [ 167.12379533 -548.46456542] as per their role.
+[SIMULATION]Half 1, Step 2: Ball position: [-746.78554868  538.59179003]
+[Agent] Player 2 passed the ball to Player 5 at position [-504.12314347 -519.4813577 ]
+[Agent] Player 3 moved to position [460.37652445 757.78232413] as per their role.
+[Agent] Player 4 moved to position [-607.67757525 -239.93453093] as per their role.
+[Agent] Player 5 moved to position [-192.38777477 -134.22641577] as per their role.
+[Agent] Player 6 passed the ball to Player 10 at position [182.8580064   93.40187098]
+[Agent] Player 7 is dribbling. Current position: [1105.31978107  551.65989054]
+[Agent] Player 8 moved to position [61.8628716  -3.18603459] as per their role.
+[Agent] Player 9 moved to position [-352.77349696  100.518952  ] as per their role.
+[Agent] Player 10 moved to position [154.47956339  71.89821389] as per their role.
+[Agent] Player 10 is dribbling. Current position: [135.13108335  54.90953827]
+[Agent] Player 12 passed the ball to Player 17 at position [-13.35286535 -38.1882255 ]
+[Agent] Player 13 passed the ball to Player 15 at position [-599.87273564 -254.04161636]
+[Agent] Player 14 passed the ball to Player 12 at position [-555.12   34.  ]
+[Agent] Player 15 moved to position [-728.62773077 -306.09851379] as per their role.
+[Agent] Player 16 moved to position [-531.56464187  414.43704837] as per their role.
+[Agent] Player 17 moved to position [123.80957829  20.64876816] as per their role.
+[Agent] Player 18 passed the ball to Player 12 at position [-555.12   34.  ]
+[Agent] Player 19 is dribbling. Current position: [660.12171685 354.06085842]
+[Agent] Player 20 moved to position [-1519.55093889   707.23790809] as per their role.
+[Agent] Player 20 passed the ball to Player 16 at position [-531.56464187  414.43704837]
+[Agent] Player 21 moved to position [  236.91398807 -1003.61710624] as per their role.
+[Agent] Player 21 passed the ball to Player 15 at position [-728.62773077 -306.09851379]
+[SIMULATION]Half 1, Step 3: Ball position: [-730.42678951 -450.73200382]
+[Agent] Player 0 passed the ball to Player 8 at position [61.8628716  -3.18603459]
+[Agent] Player 2 passed the ball to Player 5 at position [-192.38777477 -134.22641577]
+[Agent] Player 3 passed the ball to Player 5 at position [-192.38777477 -134.22641577]
+[Agent] Player 4 moved to position [-166.72638371  -73.13094999] as per their role.
+[Agent] Player 5 moved to position [483.32793824 585.97186249] as per their role.
+[Agent] Player 6 is dribbling. Current position: [-31.39259851 982.23971132]
+[Agent] Player 7 moved to position [1265.63906162  638.66950214] as per their role.
+[Agent] Player 8 moved to position [210.15031131 189.3936596 ] as per their role.
+[Agent] Player 9 is resting to regain stamina. Current stamina: 11.723999999999993
+[Agent] Player 12 passed the ball to Player 17 at position [123.80957829  20.64876816]
+[Agent] Player 15 passed the ball to Player 16 at position [-531.56464187  414.43704837]
+[Agent] Player 16 passed the ball to Player 15 at position [-728.62773077 -306.09851379]
+[Agent] Player 17 passed the ball to Player 12 at position [-555.12   34.  ]
+[Agent] Player 18 is dribbling. Current position: [597.65298639 317.8264932 ]
+[Agent] Player 19 moved to position [700.8682112  346.93578755] as per their role.
+[Agent] Player 20 moved to position [-1649.57604883   761.10981461] as per their role.
+[Agent] Player 21 moved to position [  262.98353897 -1170.46587415] as per their role.
+[Agent] Player 21 scores a goal for team_b!
+[SIMULATION]Half 1, Step 4: Ball position: [-442.40552207  584.29656426]
+[Agent] Player 0 passed the ball to Player 8 at position [210.15031131 189.3936596 ]
+[Agent] Player 3 passed the ball to Player 5 at position [483.32793824 585.97186249]
+[Agent] Player 5 passed the ball to Player 10 at position [135.13108335  54.90953827]
+[Agent] Player 6 moved to position [ 84.77492994 736.81623265] as per their role.
+[Agent] Player 7 is dribbling. Current position: [1452.23917675  738.81953105]
+[Agent] Player 8 passed the ball to Player 5 at position [483.32793824 585.97186249]
+[Agent] Player 9 moved to position [-380.79516931   72.94862464] as per their role.
+[Agent] Player 11 passed the ball to Player 14 at position [-711.52429102   19.72953856]
+[Agent] Player 14 passed the ball to Player 12 at position [-684.9072   34.    ]
+[Agent] Player 16 passed the ball to Player 15 at position [-728.62773077 -306.09851379]
+[Agent] Player 17 is dribbling. Current position: [328.10687649 113.05318911]
+[Agent] Player 18 passed the ball to Player 12 at position [-684.9072   34.    ]
+[Agent] Player 19 is dribbling. Current position: [800.53533853 369.27103317]
+[Agent] Player 20 is resting to regain stamina. Current stamina: 12.894000000000025
+[Agent] Player 21 moved to position [  269.06521095 -1194.70859486] as per their role.
+[SIMULATION]Half 1, Step 5: Ball position: [578.21963182 164.95346655]
+[Agent] Player 0 passed the ball to Player 8 at position [210.15031131 189.3936596 ]
+[Agent] Player 1 passed the ball to Player 8 at position [210.15031131 189.3936596 ]
+[Agent] Player 3 moved to position [266.51175877 467.99595436] as per their role.
+[Agent] Player 4 passed the ball to Player 5 at position [483.32793824 585.97186249]
+[Agent] Player 6 passed the ball to Player 10 at position [135.13108335  54.90953827]
+[Agent] Player 7 is dribbling. Current position: [1647.57968464  843.33975633]
+[Agent] Player 8 passed the ball to Player 5 at position [483.32793824 585.97186249]
+[Agent] Player 11 passed the ball to Player 14 at position [-711.52429102   19.72953856]
+[Agent] Player 14 moved to position [-287.89937827   33.08518473] as per their role.
+[Agent] Player 15 passed the ball to Player 16 at position [-531.56464187  414.43704837]
+[Agent] Player 16 passed the ball to Player 15 at position [-728.62773077 -306.09851379]
+[Agent] Player 17 passed the ball to Player 12 at position [-343.4256   34.    ]
+[Agent] Player 18 moved to position [649.1498627  334.95983264] as per their role.
+[Agent] Player 19 is dribbling. Current position: [919.62003701 401.31506437]
+[Agent] Player 20 moved to position [-1646.95609792   758.93452822] as per their role.
+[Agent] Player 21 is resting to regain stamina. Current stamina: 11.239999999999982
+[SIMULATION]Half 1, Step 6: Ball position: [130.91252031 -32.11500491]
+[Agent] Player 0 passed the ball to Player 8 at position [210.15031131 189.3936596 ]
+[Agent] Player 3 passed the ball to Player 5 at position [483.32793824 585.97186249]
+[Agent] Player 4 moved to position [653.02937004 305.51453406] as per their role.
+[Agent] Player 5 moved to position [ 913.82228779 1012.24304801] as per their role.
+[Agent] Player 6 is dribbling. Current position: [237.92006544 509.8815575 ]
+[Agent] Player 8 is dribbling. Current position: [370.25661311 387.88278484]
+[Agent] Player 12 passed the ball to Player 14 at position [-287.89937827   33.08518473]
+[Agent] Player 14 moved to position [568.13246169  58.5340143 ] as per their role.
+[Agent] Player 15 moved to position [-452.97300582 -190.64009325] as per their role.
+[Agent] Player 16 passed the ball to Player 15 at position [-452.97300582 -190.64009325]
+[Agent] Player 17 moved to position [320.73194675 153.2119254 ] as per their role.
+[Agent] Player 18 moved to position [573.76107177 284.00479238] as per their role.
+[Agent] Player 19 is resting to regain stamina. Current stamina: 12.144000000000009
+[Agent] Player 21 moved to position [  253.83432887 -1076.53721852] as per their role.
+[SIMULATION]Half 1, Step 7: Ball position: [441.14885725 -53.51816854]
+[Agent] Player 0 passed the ball to Player 8 at position [370.25661311 387.88278484]
+[Agent] Player 2 passed the ball to Player 5 at position [ 913.82228779 1012.24304801]
+[Agent] Player 3 passed the ball to Player 5 at position [ 913.82228779 1012.24304801]
+[Agent] Player 4 passed the ball to Player 5 at position [ 913.82228779 1012.24304801]
+[Agent] Player 5 passed the ball to Player 10 at position [135.13108335  54.90953827]
+[Agent] Player 6 is dribbling. Current position: [399.60756966 287.21806672]
+[Agent] Player 12 passed the ball to Player 17 at position [320.73194675 153.2119254 ]
+[Agent] Player 14 passed the ball to Player 12 at position [-343.4256   34.    ]
+[Agent] Player 15 passed the ball to Player 16 at position [-531.56464187  414.43704837]
+[Agent] Player 16 moved to position [-260.36347101  207.447343  ] as per their role.
+[Agent] Player 17 is dribbling. Current position: [322.4984837  197.94139504]
+[Agent] Player 18 is resting to regain stamina. Current stamina: 10.12479999999998
+[Agent] Player 19 passed the ball to Player 16 at position [-260.36347101  207.447343  ]
+[Agent] Player 21 is resting to regain stamina. Current stamina: 6.609999999999982
+[SIMULATION]Half 1, Step 8: Ball position: [315.06891839  -4.12723284]
+[Agent] Player 3 passed the ball to Player 5 at position [ 913.82228779 1012.24304801]
+[Agent] Player 5 moved to position [1156.05949861 1227.60415085] as per their role.
+[Agent] Player 12 passed the ball to Player 17 at position [322.4984837  197.94139504]
+[Agent] Player 14 passed the ball to Player 12 at position [-343.4256   34.    ]
+[Agent] Player 16 moved to position [ 299.6799905  -182.12719763] as per their role.
+[Agent] Player 18 is dribbling. Current position: [503.80723796 235.76723068]
+[Agent] Player 19 is resting to regain stamina. Current stamina: 11.94400000000001
+[Agent] Player 21 is resting to regain stamina. Current stamina: 11.609999999999982
+[SIMULATION]Half 1, Step 9: Ball position: [-206.94256387 -559.90863581]
+[Agent] Player 3 passed the ball to Player 5 at position [1156.05949861 1227.60415085]
+[Agent] Player 4 moved to position [1168.70582043  548.65190604] as per their role.
+[Agent] Player 11 passed the ball to Player 14 at position [568.13246169  58.5340143 ]
+[Agent] Player 14 passed the ball to Player 12 at position [305.7408  34.    ]
+[Agent] Player 15 passed the ball to Player 16 at position [ 299.6799905  -182.12719763]
+[Agent] Player 16 moved to position [ 651.58183204 -402.10553496] as per their role.
+[Agent] Player 19 is dribbling. Current position: [1048.83853052  438.42599308]
+[Agent] Player 21 moved to position [ 215.99693398 -816.15140698] as per their role.
+[SIMULATION]Half 1, Step 10: Ball position: [ 243.51609519 -401.45313295]
+[Agent] Player 1 passed the ball to Player 8 at position [370.25661311 387.88278484]
+[Agent] Player 2 is resting to regain stamina. Current stamina: 6.6999999999999815
+[Agent] Player 3 passed the ball to Player 5 at position [1156.05949861 1227.60415085]
+[Agent] Player 4 moved to position [1461.72090932  687.02989453] as per their role.
+[Agent] Player 12 passed the ball to Player 17 at position [322.4984837  197.94139504]
+[Agent] Player 13 is resting to regain stamina. Current stamina: 12.069999999999999
+[Agent] Player 14 moved to position [1157.62652906   75.03269688] as per their role.
+[Agent] Player 16 passed the ball to Player 15 at position [-452.97300582 -190.64009325]
+[Agent] Player 21 is resting to regain stamina. Current stamina: 6.979999999999981
+[SIMULATION]Half 1, Step 11: Ball position: [ 279.29912312 -338.40972826]
+[Agent] Player 0 is resting to regain stamina. Current stamina: 8.72599999999998
+[Agent] Player 2 is resting to regain stamina. Current stamina: 11.699999999999982
+[Agent] Player 3 passed the ball to Player 5 at position [1156.05949861 1227.60415085]
+[Agent] Player 4 moved to position [1614.76526598  762.49197683] as per their role.
+[Agent] Player 5 moved to position [1267.05420567 1307.31418398] as per their role.
+[Agent] Player 11 passed the ball to Player 14 at position [1157.62652906   75.03269688]
+[Agent] Player 13 passed the ball to Player 15 at position [-452.97300582 -190.64009325]
+[Agent] Player 14 passed the ball to Player 12 at position [755.5032  34.    ]
+[Agent] Player 15 moved to position [80.39882027 53.46816542] as per their role.
+[Agent] Player 16 moved to position [ 877.04831166 -527.62481113] as per their role.
+[Agent] Player 21 is resting to regain stamina. Current stamina: 11.97999999999998
+[SIMULATION]Half 1, Step 12: Ball position: [-182.76948333   67.52883349]
+[Agent] Player 0 is resting to regain stamina. Current stamina: 13.72599999999998
+[Agent] Player 1 is resting to regain stamina. Current stamina: 9.919999999999963
+[Agent] Player 3 moved to position [-28.47500192   5.97249187] as per their role.
+[Agent] Player 4 is resting to regain stamina. Current stamina: 14.253999999999959
+[Agent] Player 5 passed the ball to Player 10 at position [135.13108335  54.90953827]
+[Agent] Player 13 is resting to regain stamina. Current stamina: 11.0805
+[Agent] Player 15 passed the ball to Player 16 at position [ 877.04831166 -527.62481113]
+[Agent] Player 16 moved to position [ 983.11267548 -572.65101467] as per their role.
+[Agent] Player 21 moved to position [ 157.13553707 -413.30861478] as per their role.
+[SIMULATION]Half 1, Step 13: Ball position: [-117.52701646  -60.34176929]
+[Agent] Player 0 passed the ball to Player 1 at position [-425.96   34.  ]
+[Agent] Player 1 is resting to regain stamina. Current stamina: 14.919999999999963
+[Agent] Player 3 moved to position [-184.46026999 -418.44000078] as per their role.
+[Agent] Player 4 passed the ball to Player 5 at position [1267.05420567 1307.31418398]
+[Agent] Player 5 is resting to regain stamina. Current stamina: 12.112499999999978
+[Agent] Player 11 is resting to regain stamina. Current stamina: 7.179999999999961
+[Agent] Player 12 is resting to regain stamina. Current stamina: 14.334999999999972
+[Agent] Player 13 passed the ball to Player 15 at position [80.39882027 53.46816542]
+[Agent] Player 14 moved to position [1598.23394639   89.86277146] as per their role.
+[Agent] Player 15 passed the ball to Player 16 at position [ 983.11267548 -572.65101467]
+[Agent] Player 16 is resting to regain stamina. Current stamina: 6.579999999999984
+[Agent] Player 21 is resting to regain stamina. Current stamina: 7.34999999999998
+[SIMULATION]Half 1, Step 14: Ball position: [495.1139942 450.9137461]
+[Agent] Player 0 is resting to regain stamina. Current stamina: 13.52599999999998
+[Agent] Player 3 is resting to regain stamina. Current stamina: 13.479999999999963
+[Agent] Player 4 is resting to regain stamina. Current stamina: 14.05399999999996
+[Agent] Player 5 passed the ball to Player 10 at position [135.13108335  54.90953827]
+[Agent] Player 11 is resting to regain stamina. Current stamina: 11.17999999999996
+[Agent] Player 12 passed the ball to Player 17 at position [322.4984837  197.94139504]
+[Agent] Player 13 is resting to regain stamina. Current stamina: 10.880500000000001
+[Agent] Player 14 is resting to regain stamina. Current stamina: 14.519999999999992
+[Agent] Player 16 is resting to regain stamina. Current stamina: 11.579999999999984
+[Agent] Player 21 is resting to regain stamina. Current stamina: 11.66849999999998
+[SIMULATION]Half 1, Step 15: Ball position: [ 393.23744126 -322.49019782]
+[Agent] Player 1 is resting to regain stamina. Current stamina: 10.10999999999996
+[Agent] Player 3 passed the ball to Player 5 at position [1267.05420567 1307.31418398]
+[Agent] Player 4 moved to position [1637.64078024  776.37425342] as per their role.
+[Agent] Player 5 is resting to regain stamina. Current stamina: 11.912499999999978
+[Agent] Player 11 passed the ball to Player 14 at position [1598.23394639   89.86277146]
+[Agent] Player 12 is resting to regain stamina. Current stamina: 14.134999999999973
+[Agent] Player 15 moved to position [469.96288123 305.01461539] as per their role.
+[Agent] Player 21 moved to position [ 81.70724411 132.57800971] as per their role.
+[SIMULATION]Half 1, Step 16: Ball position: [ 280.93517988 -207.77429   ]
+[Agent] Player 0 is resting to regain stamina. Current stamina: 5.205999999999982
+[Agent] Player 3 is resting to regain stamina. Current stamina: 13.279999999999964
+[Agent] Player 4 is resting to regain stamina. Current stamina: 5.993999999999957
+[Agent] Player 5 passed the ball to Player 10 at position [135.13108335  54.90953827]
+[Agent] Player 11 is resting to regain stamina. Current stamina: 10.979999999999961
+[Agent] Player 14 moved to position [1894.95716709   98.91894244] as per their role.
+[Agent] Player 15 is resting to regain stamina. Current stamina: 7.965999999999989
+[Agent] Player 16 moved to position [ 966.300251   -542.59529697] as per their role.
+[Agent] Player 21 is resting to regain stamina. Current stamina: 7.0384999999999796
+[SIMULATION]Half 1, Step 17: Ball position: [119.07130226 906.26494582]
+[Agent] Player 0 is resting to regain stamina. Current stamina: 9.205999999999982
+[Agent] Player 3 moved to position [-283.62671055 -710.53612695] as per their role.
+[Agent] Player 4 is resting to regain stamina. Current stamina: 10.993999999999957
+[Agent] Player 5 is resting to regain stamina. Current stamina: 11.712499999999979
+[Agent] Player 11 passed the ball to Player 14 at position [1894.95716709   98.91894244]
+[Agent] Player 12 is resting to regain stamina. Current stamina: 8.954999999999973
+[Agent] Player 14 is resting to regain stamina. Current stamina: 8.359999999999992
+[Agent] Player 15 is resting to regain stamina. Current stamina: 12.965999999999989
+[Agent] Player 16 is resting to regain stamina. Current stamina: 5.701499999999986
+[Agent] Player 21 is resting to regain stamina. Current stamina: 12.03849999999998
+[SIMULATION]Half 1, Step 18: Ball position: [-358.51458722 -379.55393053]
+[Agent] Player 0 is resting to regain stamina. Current stamina: 14.205999999999982
+[Agent] Player 3 is resting to regain stamina. Current stamina: 8.649999999999963
+[Agent] Player 4 moved to position [1529.91410273  729.60121279] as per their role.
+[Agent] Player 5 passed the ball to Player 10 at position [135.13108335  54.90953827]
+[Agent] Player 11 is resting to regain stamina. Current stamina: 9.779999999999962
+[Agent] Player 12 is resting to regain stamina. Current stamina: 13.954999999999973
+[Agent] Player 14 is resting to regain stamina. Current stamina: 13.359999999999992
+[Agent] Player 15 moved to position [735.54166219 483.32411881] as per their role.
+[Agent] Player 16 is resting to regain stamina. Current stamina: 10.701499999999985
+[Agent] Player 21 moved to position [ 40.68910936 538.63637878] as per their role.
+[SIMULATION]Half 1, Step 19: Ball position: [-518.85322676 -325.04767934]
+[Agent] Player 3 is resting to regain stamina. Current stamina: 13.649999999999963
+[Agent] Player 5 is resting to regain stamina. Current stamina: 11.51249999999998
+[Agent] Player 11 is resting to regain stamina. Current stamina: 14.779999999999962
+[Agent] Player 12 passed the ball to Player 17 at position [322.4984837  197.94139504]
+[Agent] Player 16 moved to position [ 826.24279899 -438.06365573] as per their role.
+[Agent] Player 21 is resting to regain stamina. Current stamina: 6.408499999999979
+[SIMULATION]Half 1, Step 20: Ball position: [-380.46853989 -256.00074101]
+[Agent] Player 3 moved to position [-332.43705529 -867.72390047] as per their role.
+[Agent] Player 5 moved to position [1277.98160762 1283.47454571] as per their role.
+[Agent] Player 11 passed the ball to Player 14 at position [1894.95716709   98.91894244]
+[Agent] Player 12 is resting to regain stamina. Current stamina: 13.095999999999975
+[Agent] Player 14 passed the ball to Player 12 at position [1223.028   34.   ]
+[Agent] Player 21 is resting to regain stamina. Current stamina: 11.408499999999979
+[SIMULATION]Half 1, Step 21: Ball position: [ 510.50902452 -267.65078622]
+[Agent] Player 3 is resting to regain stamina. Current stamina: 9.019999999999962
+[Agent] Player 11 is resting to regain stamina. Current stamina: 14.579999999999963
+[Agent] Player 14 is resting to regain stamina. Current stamina: 13.159999999999993
+[Agent] Player 21 moved to position [ 14.63562748 801.47443098] as per their role.
+[SIMULATION]Half 1, Step 22: Ball position: [ 455.13493689 -276.00536736]
+[Agent] Player 3 is resting to regain stamina. Current stamina: 14.019999999999962
+[Agent] Player 12 is resting to regain stamina. Current stamina: 8.915999999999976
+[Agent] Player 14 passed the ball to Player 12 at position [1240.7904   34.    ]
+[Agent] Player 21 is resting to regain stamina. Current stamina: 6.778499999999978
+[SIMULATION]Half 1, Step 23: Ball position: [ 415.42459239 -281.99667682]
+[Agent] Player 3 passed the ball to Player 5 at position [1277.98160762 1283.47454571]
+[Agent] Player 11 is resting to regain stamina. Current stamina: 9.319999999999961
+[Agent] Player 12 is resting to regain stamina. Current stamina: 13.915999999999976
+[Agent] Player 14 is resting to regain stamina. Current stamina: 12.959999999999994
+[Agent] Player 21 is resting to regain stamina. Current stamina: 11.778499999999978
+[SIMULATION]Half 1, Step 24: Ball position: [ 332.47264843 -231.5904543 ]
+[Agent] Player 3 is resting to regain stamina. Current stamina: 13.819999999999963
+[Agent] Player 11 is resting to regain stamina. Current stamina: 14.319999999999961
+[Agent] Player 12 passed the ball to Player 17 at position [322.4984837  197.94139504]
+[Agent] Player 14 passed the ball to Player 12 at position [1240.7904   34.    ]
+[Agent] Player 21 moved to position [  3.29471814 921.06605143] as per their role.
+[SIMULATION]Half 1, Step 25: Ball position: [ 261.24501553 -135.86976735]
+[Agent] Player 11 passed the ball to Player 14 at position [1894.95716709   98.91894244]
+[Agent] Player 12 is resting to regain stamina. Current stamina: 12.056999999999977
+[Agent] Player 14 is resting to regain stamina. Current stamina: 12.001999999999995
+[Agent] Player 21 is resting to regain stamina. Current stamina: 7.148499999999977
+[SIMULATION]Half 1, Step 26: Ball position: [853.52195995 199.92666928]
+[Agent] Player 11 is resting to regain stamina. Current stamina: 14.119999999999962
+[Agent] Player 14 moved to position [2047.82258789  101.57719138] as per their role.
+[Agent] Player 21 is resting to regain stamina. Current stamina: 12.148499999999977
+[SIMULATION]Half 1, Step 27: Ball position: [-467.95024044 -279.67715126]
+[Agent] Player 12 is resting to regain stamina. Current stamina: 7.876999999999978
+[Agent] Player 14 is resting to regain stamina. Current stamina: 5.841999999999995
+[Agent] Player 21 moved to position [  7.13547265 897.46019606] as per their role.
+[Agent] Player 21 moved to position [ 26.07627292 730.6482353 ] as per their role.
+[SIMULATION]Half 1, Step 28: Ball position: [-347.66164803 -199.04511021]
+[Agent] Player 3 moved to position [-326.02222298 -891.92227659] as per their role.
+[Agent] Player 11 is resting to regain stamina. Current stamina: 7.85999999999996
+[Agent] Player 12 is resting to regain stamina. Current stamina: 12.876999999999978
+[Agent] Player 14 is resting to regain stamina. Current stamina: 10.841999999999995
+[SIMULATION]Half 1, Step 29: Ball position: [760.73580703 -44.87668159]
+[Agent] Player 3 is resting to regain stamina. Current stamina: 7.826999999999963
+[Agent] Player 11 is resting to regain stamina. Current stamina: 12.14699999999996
+[Agent] Player 14 moved to position [2056.80004493   98.55618983] as per their role.
+[SIMULATION]Half 1, Step 30: Ball position: [697.40137631  -9.78440662]
+[Agent] Player 3 is resting to regain stamina. Current stamina: 12.826999999999963
+[Agent] Player 12 is resting to regain stamina. Current stamina: 8.696999999999978
+[SIMULATION]Half 1, Step 31: Ball position: [651.98244177 -14.68641488]
+[Agent] Player 3 moved to position [-268.72597891 -781.40954724] as per their role.
+[Agent] Player 11 is resting to regain stamina. Current stamina: 6.886999999999958
+[Agent] Player 12 is resting to regain stamina. Current stamina: 13.696999999999978
+[SIMULATION]Half 1, Step 32: Ball position: [-430.19017984  -11.47769237]
+[Agent] Player 3 is resting to regain stamina. Current stamina: 8.196999999999962
+[Agent] Player 11 is resting to regain stamina. Current stamina: 11.886999999999958
+[SIMULATION]Half 1, Step 33: Ball position: [ 215.64077603 -344.5146643 ]
+[Agent] Player 3 is resting to regain stamina. Current stamina: 12.51549999999996
+[Agent] Player 12 is resting to regain stamina. Current stamina: 8.85799999999998
+[SIMULATION]Half 1, Step 34: Ball position: [-45.99883109 418.51281578]
+[Agent] Player 3 moved to position [-166.15960453 -534.19782264] as per their role.
+[Agent] Player 11 is resting to regain stamina. Current stamina: 6.626999999999956
+[Agent] Player 12 is resting to regain stamina. Current stamina: 13.85799999999998
+[SIMULATION]Half 1, Step 35: Ball position: [141.63042612 375.17489532]
+[Agent] Player 3 is resting to regain stamina. Current stamina: 7.8854999999999595
+[Agent] Player 11 is resting to regain stamina. Current stamina: 11.626999999999956
+[SIMULATION]Half 1, Step 36: Ball position: [116.79837409 344.0960311 ]
+[Agent] Player 3 is resting to regain stamina. Current stamina: 12.88549999999996
+[Agent] Player 12 is resting to regain stamina. Current stamina: 9.67799999999998
+[SIMULATION]Half 1, Step 37: Ball position: [ 98.22146187 321.80848728]
+[Agent] Player 3 moved to position [ -20.91485035 -149.4558981 ] as per their role.
+[Agent] Player 11 is resting to regain stamina. Current stamina: 6.366999999999955
+[Agent] Player 12 is resting to regain stamina. Current stamina: 14.67799999999998
+[SIMULATION]Half 1, Step 38: Ball position: [ 85.25777734 305.82545116]
+[Agent] Player 3 is resting to regain stamina. Current stamina: 8.255499999999959
+[Agent] Player 11 is resting to regain stamina. Current stamina: 11.366999999999955
+[SIMULATION]Half 1, Step 39: Ball position: [-385.34414022  121.17078717]
+[Agent] Player 3 is resting to regain stamina. Current stamina: 12.573999999999959
+[Agent] Player 11 passed the ball to Player 14 at position [2056.80004493   98.55618983]
+[Agent] Player 12 is resting to regain stamina. Current stamina: 9.49799999999998
+[SIMULATION]Half 1, Step 40: Ball position: [-241.94887078   88.73256583]
+[Agent] Player 3 moved to position [141.82237404 378.21962462] as per their role.
+[Agent] Player 11 is resting to regain stamina. Current stamina: 11.166999999999955
+[Agent] Player 12 is resting to regain stamina. Current stamina: 14.49799999999998
+[SIMULATION]Half 1, Step 41: Ball position: [-98.94259763  78.1523411 ]
+[Agent] Player 3 is resting to regain stamina. Current stamina: 7.943999999999958
+[Agent] Player 12 passed the ball to Player 13 at position [-543.016   34.   ]
+[SIMULATION]Half 1, Step 42: Ball position: [-109.13970683  -38.99477276]
+[Agent] Player 3 is resting to regain stamina. Current stamina: 11.262499999999957
+[Agent] Player 11 is resting to regain stamina. Current stamina: 5.906999999999954
+[Agent] Player 12 is resting to regain stamina. Current stamina: 12.638999999999982
+[SIMULATION]Half 1, Step 43: Ball position: [-270.99972344  -94.16873048]
+[Agent] Player 3 passed the ball to Player 5 at position [1277.98160762 1283.47454571]
+[Agent] Player 11 is resting to regain stamina. Current stamina: 10.906999999999954
+[SIMULATION]Half 1, Step 44: Ball position: [-149.54121036  -52.76661644]
+[SIMULATION]Half-time break. Players rest.
+[SIMULATION]Player 0 rests during half-time. Stamina is now 30
+[SIMULATION]Player 1 rests during half-time. Stamina is now 30
+[SIMULATION]Player 2 rests during half-time. Stamina is now 30
+[SIMULATION]Player 3 rests during half-time. Stamina is now 35.06249999999996
+[SIMULATION]Player 4 rests during half-time. Stamina is now 29.0
+[SIMULATION]Player 5 rests during half-time. Stamina is now 30
+[SIMULATION]Player 6 rests during half-time. Stamina is now 27.76479999999998
+[SIMULATION]Player 7 rests during half-time. Stamina is now 26.19079999999998
+[SIMULATION]Player 8 rests during half-time. Stamina is now 28.68320000000001
+[SIMULATION]Player 9 rests during half-time. Stamina is now 30
+[SIMULATION]Player 10 rests during half-time. Stamina is now 20.345999999999993
+[SIMULATION]Player 11 rests during half-time. Stamina is now 40.906999999999954
+[SIMULATION]Player 12 rests during half-time. Stamina is now 33.45899999999998
+[SIMULATION]Player 13 rests during half-time. Stamina is now 30
+[SIMULATION]Player 14 rests during half-time. Stamina is now 30
+[SIMULATION]Player 15 rests during half-time. Stamina is now 30
+[SIMULATION]Player 16 rests during half-time. Stamina is now 30
+[SIMULATION]Player 17 rests during half-time. Stamina is now 26.643599999999974
+[SIMULATION]Player 18 rests during half-time. Stamina is now 30
+[SIMULATION]Player 19 rests during half-time. Stamina is now 21.40320000000001
+[SIMULATION]Player 20 rests during half-time. Stamina is now 30
+[SIMULATION]Player 21 rests during half-time. Stamina is now 30
+[SIMULATION]Starting Half 2
+[Agent] Player 0 passed the ball to Player 8 at position [370.25661311 387.88278484]
+[Agent] Player 3 passed the ball to Player 5 at position [1277.98160762 1283.47454571]
+[Agent] Player 4 moved to position [1234.44083075  591.45719066] as per their role.
+[Agent] Player 6 passed the ball to Player 10 at position [135.13108335  54.90953827]
+[Agent] Player 7 is dribbling. Current position: [1857.90904846  955.35440957]
+[Agent] Player 8 passed the ball to Player 5 at position [1277.98160762 1283.47454571]
+[Agent] Player 9 moved to position [-193.6754642    26.13803476] as per their role.
+[Agent] Player 9 moved to position [137.44302099 -21.26529   ] as per their role.
+[Agent] Player 10 moved to position [ -6.72839469 -42.39555565] as per their role.
+[Agent] Player 12 passed the ball to Player 17 at position [322.4984837  197.94139504]
+[Agent] Player 15 passed the ball to Player 16 at position [ 826.24279899 -438.06365573]
+[Agent] Player 16 passed the ball to Player 15 at position [735.54166219 483.32411881]
+[Agent] Player 17 moved to position [166.78091656 133.1308728 ] as per their role.
+[Agent] Player 18 is dribbling. Current position: [446.08205765 193.64399573]
+[Agent] Player 19 moved to position [1037.05314239  413.36255167] as per their role.
+[Agent] Player 20 moved to position [-1443.72913356   676.67911848] as per their role.
+[Agent] Player 20 passed the ball to Player 16 at position [ 826.24279899 -438.06365573]
+[Agent] Player 21 moved to position [ 66.56108534 348.91336851] as per their role.
+[Agent] Player 21 moved to position [ 119.99104203 -178.91308646] as per their role.
+[SIMULATION]Half 2, Step 0: Ball position: [ 271.39560531 -147.9825143 ]
+[Agent] Player 0 passed the ball to Player 8 at position [370.25661311 387.88278484]
+[Agent] Player 1 passed the ball to Player 8 at position [370.25661311 387.88278484]
+[Agent] Player 3 moved to position [235.17904528 707.57799352] as per their role.
+[Agent] Player 4 moved to position [807.87927163 393.71567719] as per their role.
+[Agent] Player 5 moved to position [1142.23577605 1111.02668906] as per their role.
+[Agent] Player 6 moved to position [434.52498102 -37.05608628] as per their role.
+[Agent] Player 7 is resting to regain stamina. Current stamina: 11.94599999999998
+[Agent] Player 8 passed the ball to Player 5 at position [1142.23577605 1111.02668906]
+[Agent] Player 9 is resting to regain stamina. Current stamina: 10.699999999999996
+[Agent] Player 10 is resting to regain stamina. Current stamina: 13.19599999999999
+[Agent] Player 11 passed the ball to Player 14 at position [2056.80004493   98.55618983]
+[Agent] Player 14 passed the ball to Player 12 at position [-879.408   34.   ]
+[Agent] Player 15 moved to position [849.54038108 567.25587917] as per their role.
+[Agent] Player 16 moved to position [ 537.17344629 -248.91698594] as per their role.
+[Agent] Player 17 is dribbling. Current position: [20.20481611 72.8910839 ]
+[Agent] Player 18 is resting to regain stamina. Current stamina: 13.4224
+[Agent] Player 19 is dribbling. Current position: [1035.40154928  393.36600778]
+[Agent] Player 20 moved to position [-1108.55986299   536.74158125] as per their role.
+[Agent] Player 21 moved to position [ 149.99575382 -564.65767101] as per their role.
+[SIMULATION]Half 2, Step 1: Ball position: [241.94070968 137.62429114]
+[Agent] Player 2 is resting to regain stamina. Current stamina: 7.124999999999993
+[Agent] Player 3 moved to position [285.35685288 899.56247214] as per their role.
+[Agent] Player 4 is resting to regain stamina. Current stamina: 9.879999999999995
+[Agent] Player 5 moved to position [901.73876383 839.76997576] as per their role.
+[Agent] Player 6 moved to position [ 326.48341915 -344.04637484] as per their role.
+[Agent] Player 7 is dribbling. Current position: [2076.97880504 1071.73925919]
+[Agent] Player 8 moved to position [432.07811677 481.1288654 ] as per their role.
+[Agent] Player 9 moved to position [345.57300999   6.23018231] as per their role.
+[Agent] Player 10 moved to position [-36.3729535  -49.45757834] as per their role.
+[Agent] Player 11 passed the ball to Player 14 at position [2056.80004493   98.55618983]
+[Agent] Player 12 passed the ball to Player 17 at position [20.20481611 72.8910839 ]
+[Agent] Player 13 is resting to regain stamina. Current stamina: 11.42
+[Agent] Player 14 passed the ball to Player 12 at position [-879.408   34.   ]
+[Agent] Player 15 moved to position [842.37056155 573.37899414] as per their role.
+[Agent] Player 16 moved to position [118.5231504   3.0371608] as per their role.
+[Agent] Player 18 moved to position [252.90123768 102.65595051] as per their role.
+[Agent] Player 21 is resting to regain stamina. Current stamina: 5.428499999999996
+[SIMULATION]Half 2, Step 2: Ball position: [241.2745272  -36.21097644]
+[Agent] Player 0 is resting to regain stamina. Current stamina: 11.280000000000003
+[Agent] Player 1 is resting to regain stamina. Current stamina: 9.489499999999996
+[Agent] Player 2 is resting to regain stamina. Current stamina: 12.124999999999993
+[Agent] Player 3 is resting to regain stamina. Current stamina: 14.920999999999951
+[Agent] Player 4 is resting to regain stamina. Current stamina: 14.879999999999995
+[Agent] Player 5 is resting to regain stamina. Current stamina: 7.900000000000002
+[Agent] Player 8 is resting to regain stamina. Current stamina: 9.097200000000013
+[Agent] Player 10 is resting to regain stamina. Current stamina: 6.045999999999989
+[Agent] Player 12 passed the ball to Player 17 at position [20.20481611 72.8910839 ]
+[Agent] Player 13 passed the ball to Player 15 at position [842.37056155 573.37899414]
+[Agent] Player 14 moved to position [1921.82376305   91.88538702] as per their role.
+[Agent] Player 16 is resting to regain stamina. Current stamina: 8.460000000000004
+[Agent] Player 18 is resting to regain stamina. Current stamina: 5.362399999999997
+[Agent] Player 21 is resting to regain stamina. Current stamina: 10.428499999999996
+[SIMULATION]Half 2, Step 3: Ball position: [110.8763406   -6.30799253]
+[Agent] Player 1 is resting to regain stamina. Current stamina: 14.489499999999996
+[Agent] Player 3 passed the ball to Player 5 at position [901.73876383 839.76997576]
+[Agent] Player 4 passed the ball to Player 5 at position [901.73876383 839.76997576]
+[Agent] Player 5 is resting to regain stamina. Current stamina: 12.900000000000002
+[Agent] Player 8 is resting to regain stamina. Current stamina: 14.097200000000013
+[Agent] Player 10 is resting to regain stamina. Current stamina: 11.045999999999989
+[Agent] Player 11 is resting to regain stamina. Current stamina: 13.986999999999952
+[Agent] Player 12 is resting to regain stamina. Current stamina: 13.67899999999998
+[Agent] Player 13 is resting to regain stamina. Current stamina: 11.22
+[Agent] Player 14 is resting to regain stamina. Current stamina: 12.440000000000001
+[Agent] Player 16 is resting to regain stamina. Current stamina: 13.460000000000004
+[Agent] Player 18 is resting to regain stamina. Current stamina: 10.362399999999997
+[Agent] Player 21 moved to position [ 163.30456083 -807.37342364] as per their role.
+[SIMULATION]Half 2, Step 4: Ball position: [174.1490645  -35.84911035]
+[Agent] Player 3 is resting to regain stamina. Current stamina: 14.720999999999952
+[Agent] Player 4 is resting to regain stamina. Current stamina: 13.679999999999996
+[Agent] Player 5 moved to position [553.77954919 472.6598585 ] as per their role.
+[Agent] Player 8 passed the ball to Player 5 at position [553.77954919 472.6598585 ]
+[Agent] Player 10 moved to position [45.86968268 34.12947835] as per their role.
+[Agent] Player 11 passed the ball to Player 14 at position [1921.82376305   91.88538702]
+[Agent] Player 16 moved to position [-420.13243445  334.58232853] as per their role.
+[Agent] Player 18 is resting to regain stamina. Current stamina: 14.559399999999998
+[Agent] Player 21 is resting to regain stamina. Current stamina: 5.798499999999995
+[SIMULATION]Half 2, Step 5: Ball position: [119.01760176  -1.87480242]
+[Agent] Player 1 is resting to regain stamina. Current stamina: 9.679499999999994
+[Agent] Player 3 passed the ball to Player 5 at position [553.77954919 472.6598585 ]
+[Agent] Player 4 moved to position [249.1138561  138.89404149] as per their role.
+[Agent] Player 8 is resting to regain stamina. Current stamina: 13.897200000000014
+[Agent] Player 11 is resting to regain stamina. Current stamina: 13.786999999999953
+[Agent] Player 12 is resting to regain stamina. Current stamina: 9.498999999999981
+[Agent] Player 16 is resting to regain stamina. Current stamina: 7.581500000000007
+[Agent] Player 18 is dribbling. Current position: [65.15537482 14.38538384]
+[Agent] Player 21 is resting to regain stamina. Current stamina: 10.798499999999995
+[SIMULATION]Half 2, Step 6: Ball position: [-159.45795802  -34.67368613]
+[Agent] Player 1 is resting to regain stamina. Current stamina: 14.679499999999994
+[Agent] Player 3 is resting to regain stamina. Current stamina: 14.520999999999953
+[Agent] Player 4 is resting to regain stamina. Current stamina: 6.619999999999994
+[Agent] Player 8 passed the ball to Player 5 at position [553.77954919 472.6598585 ]
+[Agent] Player 12 is resting to regain stamina. Current stamina: 14.498999999999981
+[Agent] Player 14 moved to position [1642.91693275   80.74275762] as per their role.
+[Agent] Player 16 is resting to regain stamina. Current stamina: 12.581500000000007
+[Agent] Player 21 moved to position [ 162.13268253 -906.81911744] as per their role.
+[SIMULATION]Half 2, Step 7: Ball position: [-169.28480752 -106.70957248]
+[Agent] Player 4 is resting to regain stamina. Current stamina: 11.619999999999994
+[Agent] Player 8 is resting to regain stamina. Current stamina: 12.831200000000015
+[Agent] Player 11 is resting to regain stamina. Current stamina: 8.526999999999951
+[Agent] Player 12 passed the ball to Player 17 at position [20.20481611 72.8910839 ]
+[Agent] Player 14 is resting to regain stamina. Current stamina: 5.280000000000001
+[Agent] Player 16 moved to position [-837.50689431  588.49445739] as per their role.
+[Agent] Player 21 is resting to regain stamina. Current stamina: 5.1684999999999945
+[SIMULATION]Half 2, Step 8: Ball position: [-116.88622991  -23.63718042]
+[Agent] Player 1 is resting to regain stamina. Current stamina: 9.869499999999992
+[Agent] Player 3 moved to position [294.67479639 953.46555625] as per their role.
+[Agent] Player 4 moved to position [-445.77207328 -162.9085021 ] as per their role.
+[Agent] Player 8 passed the ball to Player 5 at position [553.77954919 472.6598585 ]
+[Agent] Player 11 is resting to regain stamina. Current stamina: 13.526999999999951
+[Agent] Player 12 is resting to regain stamina. Current stamina: 14.298999999999982
+[Agent] Player 14 is resting to regain stamina. Current stamina: 9.522000000000002
+[Agent] Player 16 is resting to regain stamina. Current stamina: 6.411500000000009
+[Agent] Player 21 is resting to regain stamina. Current stamina: 10.168499999999995
+[SIMULATION]Half 2, Step 9: Ball position: [-78.95665797  34.41653152]
+[Agent] Player 1 is resting to regain stamina. Current stamina: 14.869499999999992
+[Agent] Player 3 is resting to regain stamina. Current stamina: 9.890999999999952
+[Agent] Player 8 is resting to regain stamina. Current stamina: 10.899200000000015
+[Agent] Player 11 passed the ball to Player 14 at position [1642.91693275   80.74275762]
+[Agent] Player 12 passed the ball to Player 17 at position [20.20481611 72.8910839 ]
+[Agent] Player 14 is resting to regain stamina. Current stamina: 14.522000000000002
+[Agent] Player 16 is resting to regain stamina. Current stamina: 11.411500000000009
+[Agent] Player 21 moved to position [ 151.99663812 -862.54409692] as per their role.
+[SIMULATION]Half 2, Step 10: Ball position: [3.99514093 1.07111938]
+[Agent] Player 1 passed the ball to Player 8 at position [432.07811677 481.1288654 ]
+[Agent] Player 3 is resting to regain stamina. Current stamina: 14.890999999999952
+[Agent] Player 8 moved to position [399.50146958 465.63218014] as per their role.
+[Agent] Player 11 is resting to regain stamina. Current stamina: 13.326999999999952
+[Agent] Player 12 is resting to regain stamina. Current stamina: 13.439999999999984
+[Agent] Player 14 moved to position [1220.12584804   63.82766478] as per their role.
+[Agent] Player 16 passed the ball to Player 15 at position [842.37056155 573.37899414]
+[Agent] Player 21 is resting to regain stamina. Current stamina: 5.538499999999994
+[SIMULATION]Half 2, Step 11: Ball position: [-1029.23233576    73.96548775]
+[Agent] Player 1 is resting to regain stamina. Current stamina: 14.669499999999992
+[Agent] Player 11 passed the ball to Player 14 at position [1220.12584804   63.82766478]
+[Agent] Player 14 is resting to regain stamina. Current stamina: 8.362000000000002
+[Agent] Player 16 is resting to regain stamina. Current stamina: 11.21150000000001
+[Agent] Player 21 is resting to regain stamina. Current stamina: 10.538499999999994
+[SIMULATION]Half 2, Step 12: Ball position: [-956.58722609   85.20374455]
+[Agent] Player 3 moved to position [263.52017393 869.17323015] as per their role.
+[Agent] Player 11 is resting to regain stamina. Current stamina: 12.413999999999954
+[Agent] Player 12 is resting to regain stamina. Current stamina: 8.600999999999985
+[Agent] Player 14 is resting to regain stamina. Current stamina: 13.362000000000002
+[Agent] Player 16 passed the ball to Player 15 at position [842.37056155 573.37899414]
+[Agent] Player 21 moved to position [ 133.19198499 -674.53023258] as per their role.
+[SIMULATION]Half 2, Step 13: Ball position: [441.35156232 -18.07466847]
+[Agent] Player 1 is resting to regain stamina. Current stamina: 8.85949999999999
+[Agent] Player 3 is resting to regain stamina. Current stamina: 10.260999999999951
+[Agent] Player 12 is resting to regain stamina. Current stamina: 13.600999999999985
+[Agent] Player 14 moved to position [653.45139734  41.11800647] as per their role.
+[Agent] Player 16 is resting to regain stamina. Current stamina: 11.01150000000001
+[Agent] Player 21 is resting to regain stamina. Current stamina: 5.908499999999993
+[SIMULATION]Half 2, Step 14: Ball position: [121.33526711  13.02263587]
+[Agent] Player 1 is resting to regain stamina. Current stamina: 13.16899999999999
+[Agent] Player 3 moved to position [189.7276433  647.33815147] as per their role.
+[Agent] Player 11 is resting to regain stamina. Current stamina: 7.153999999999952
+[Agent] Player 12 passed the ball to Player 17 at position [20.20481611 72.8910839 ]
+[Agent] Player 14 is resting to regain stamina. Current stamina: 7.202000000000002
+[Agent] Player 21 is resting to regain stamina. Current stamina: 10.908499999999993
+[SIMULATION]Half 2, Step 15: Ball position: [  67.31018447 -193.66940788]
+[Agent] Player 3 is resting to regain stamina. Current stamina: 5.6309999999999505
+[Agent] Player 11 is resting to regain stamina. Current stamina: 11.440999999999953
+[Agent] Player 12 is resting to regain stamina. Current stamina: 13.400999999999986
+[Agent] Player 14 is resting to regain stamina. Current stamina: 12.202000000000002
+[Agent] Player 21 moved to position [ 107.9118342  -342.66203939] as per their role.
+[SIMULATION]Half 2, Step 16: Ball position: [  60.28559407 -206.94218569]
+[Agent] Player 1 is resting to regain stamina. Current stamina: 8.358999999999988
+[Agent] Player 3 is resting to regain stamina. Current stamina: 10.63099999999995
+[Agent] Player 11 passed the ball to Player 14 at position [653.45139734  41.11800647]
+[Agent] Player 12 passed the ball to Player 17 at position [20.20481611 72.8910839 ]
+[Agent] Player 14 passed the ball to Player 12 at position [-580.9536   34.    ]
+[Agent] Player 16 moved to position [-1131.86686848   767.55048224] as per their role.
+[Agent] Player 21 is resting to regain stamina. Current stamina: 6.278499999999992
+[SIMULATION]Half 2, Step 17: Ball position: [-149.0895129   320.35740257]
+[Agent] Player 1 is resting to regain stamina. Current stamina: 13.358999999999988
+[Agent] Player 3 is resting to regain stamina. Current stamina: 14.63099999999995
+[Agent] Player 11 is resting to regain stamina. Current stamina: 11.240999999999953
+[Agent] Player 12 is resting to regain stamina. Current stamina: 12.541999999999987
+[Agent] Player 14 is resting to regain stamina. Current stamina: 11.244000000000003
+[Agent] Player 16 is resting to regain stamina. Current stamina: 5.133000000000013
+[Agent] Player 21 is resting to regain stamina. Current stamina: 11.278499999999992
+[SIMULATION]Half 2, Step 18: Ball position: [-108.62266538  218.13899103]
+[Agent] Player 3 passed the ball to Player 5 at position [553.77954919 472.6598585 ]
+[Agent] Player 12 passed the ball to Player 17 at position [20.20481611 72.8910839 ]
+[Agent] Player 16 is resting to regain stamina. Current stamina: 9.424500000000013
+[Agent] Player 21 moved to position [ 72.35500868 132.83898416] as per their role.
+[SIMULATION]Half 2, Step 19: Ball position: [-637.1154607  -113.71741922]
+[Agent] Player 1 is resting to regain stamina. Current stamina: 8.548999999999985
+[Agent] Player 3 is resting to regain stamina. Current stamina: 12.749499999999951
+[Agent] Player 11 is resting to regain stamina. Current stamina: 5.980999999999952
+[Agent] Player 12 is resting to regain stamina. Current stamina: 12.341999999999988
+[Agent] Player 14 moved to position [-57.21350121  16.74975549] as per their role.
+[Agent] Player 16 is resting to regain stamina. Current stamina: 13.716000000000014
+[Agent] Player 21 is resting to regain stamina. Current stamina: 6.648499999999991
+[SIMULATION]Half 2, Step 20: Ball position: [-560.29280919  -99.70402652]
+[Agent] Player 1 is resting to regain stamina. Current stamina: 13.548999999999985
+[Agent] Player 3 moved to position [ 77.09617533 286.83967839] as per their role.
+[Agent] Player 11 is resting to regain stamina. Current stamina: 10.980999999999952
+[Agent] Player 14 is resting to regain stamina. Current stamina: 5.084000000000003
+[Agent] Player 16 passed the ball to Player 15 at position [842.37056155 573.37899414]
+[Agent] Player 21 is resting to regain stamina. Current stamina: 11.648499999999991
+[SIMULATION]Half 2, Step 21: Ball position: [-626.86821767 -256.68809169]
+[Agent] Player 3 is resting to regain stamina. Current stamina: 7.437999999999951
+[Agent] Player 12 is resting to regain stamina. Current stamina: 8.161999999999988
+[Agent] Player 14 is resting to regain stamina. Current stamina: 9.326000000000004
+[Agent] Player 16 is resting to regain stamina. Current stamina: 13.516000000000014
+[Agent] Player 21 moved to position [ 56.21338201 465.65486464] as per their role.
+[SIMULATION]Half 2, Step 22: Ball position: [-553.29266995 -238.60499316]
+[Agent] Player 1 is resting to regain stamina. Current stamina: 7.738999999999983
+[Agent] Player 3 is resting to regain stamina. Current stamina: 12.43799999999995
+[Agent] Player 11 is resting to regain stamina. Current stamina: 5.72099999999995
+[Agent] Player 12 is resting to regain stamina. Current stamina: 13.161999999999988
+[Agent] Player 14 is resting to regain stamina. Current stamina: 14.326000000000004
+[Agent] Player 16 passed the ball to Player 15 at position [842.37056155 573.37899414]
+[Agent] Player 21 is resting to regain stamina. Current stamina: 7.018499999999991
+[SIMULATION]Half 2, Step 23: Ball position: [-87.76184733 381.69804603]
+[Agent] Player 1 is resting to regain stamina. Current stamina: 12.738999999999983
+[Agent] Player 3 moved to position [ -62.44714029 -215.12169603] as per their role.
+[Agent] Player 11 is resting to regain stamina. Current stamina: 10.72099999999995
+[Agent] Player 12 passed the ball to Player 17 at position [20.20481611 72.8910839 ]
+[Agent] Player 14 moved to position [-624.51034355    5.85742605] as per their role.
+[Agent] Player 16 is resting to regain stamina. Current stamina: 13.316000000000015
+[Agent] Player 21 is resting to regain stamina. Current stamina: 11.336999999999989
+[SIMULATION]Half 2, Step 24: Ball position: [ -4.49665521 369.05134262]
+[Agent] Player 3 is resting to regain stamina. Current stamina: 7.80799999999995
+[Agent] Player 12 is resting to regain stamina. Current stamina: 12.961999999999989
+[Agent] Player 14 is resting to regain stamina. Current stamina: 7.166000000000004
+[Agent] Player 16 moved to position [-1303.99920949   870.47237746] as per their role.
+[Agent] Player 21 moved to position [ 47.46337856 654.6605789 ] as per their role.
+[SIMULATION]Half 2, Step 25: Ball position: [-51.63798644 359.98202932]
+[Agent] Player 1 is resting to regain stamina. Current stamina: 7.928999999999981
+[Agent] Player 3 is resting to regain stamina. Current stamina: 12.80799999999995
+[Agent] Player 11 is resting to regain stamina. Current stamina: 5.460999999999949
+[Agent] Player 14 is resting to regain stamina. Current stamina: 12.166000000000004
+[Agent] Player 16 is resting to regain stamina. Current stamina: 8.146000000000017
+[Agent] Player 21 is resting to regain stamina. Current stamina: 6.706999999999988
+[SIMULATION]Half 2, Step 26: Ball position: [-255.8646843  -263.88550104]
+[Agent] Player 1 is resting to regain stamina. Current stamina: 11.23849999999998
+[Agent] Player 3 moved to position [-158.2551278  -579.88532602] as per their role.
+[Agent] Player 11 is resting to regain stamina. Current stamina: 10.460999999999949
+[Agent] Player 12 is resting to regain stamina. Current stamina: 8.122999999999989
+[Agent] Player 14 passed the ball to Player 12 at position [293.5008  34.    ]
+[Agent] Player 16 is resting to regain stamina. Current stamina: 13.146000000000017
+[Agent] Player 21 is resting to regain stamina. Current stamina: 11.025499999999987
+[SIMULATION]Half 2, Step 27: Ball position: [-453.58077454  283.172231  ]
+[Agent] Player 3 is resting to regain stamina. Current stamina: 7.4964999999999495
+[Agent] Player 11 is resting to regain stamina. Current stamina: 14.460999999999949
+[Agent] Player 12 is resting to regain stamina. Current stamina: 13.122999999999989
+[Agent] Player 14 is resting to regain stamina. Current stamina: 11.966000000000005
+[Agent] Player 21 moved to position [ 47.97733269 699.9645914 ] as per their role.
+[SIMULATION]Half 2, Step 28: Ball position: [570.15841468 252.76622825]
+[Agent] Player 1 is resting to regain stamina. Current stamina: 6.428499999999978
+[Agent] Player 3 is resting to regain stamina. Current stamina: 12.49649999999995
+[Agent] Player 11 passed the ball to Player 14 at position [-624.51034355    5.85742605]
+[Agent] Player 14 passed the ball to Player 12 at position [658.728  34.   ]
+[Agent] Player 16 passed the ball to Player 15 at position [842.37056155 573.37899414]
+[Agent] Player 21 is resting to regain stamina. Current stamina: 5.713999999999986
+[SIMULATION]Half 2, Step 29: Ball position: [-896.23543394 -305.17778169]
+[Agent] Player 1 is resting to regain stamina. Current stamina: 11.428499999999978
+[Agent] Player 11 is resting to regain stamina. Current stamina: 14.26099999999995
+[Agent] Player 12 is resting to regain stamina. Current stamina: 8.942999999999989
+[Agent] Player 14 is resting to regain stamina. Current stamina: 11.766000000000005
+[Agent] Player 16 is resting to regain stamina. Current stamina: 12.946000000000017
+[Agent] Player 21 is resting to regain stamina. Current stamina: 9.713999999999986
+[SIMULATION]Half 2, Step 30: Ball position: [1134.43824357  353.12074022]
+[Agent] Player 3 passed the ball to Player 5 at position [553.77954919 472.6598585 ]
+[Agent] Player 12 is resting to regain stamina. Current stamina: 13.942999999999989
+[Agent] Player 14 moved to position [-1047.82230151    -2.94850292] as per their role.
+[Agent] Player 16 moved to position [-1353.76038955   897.49105164] as per their role.
+[Agent] Player 21 is resting to regain stamina. Current stamina: 14.713999999999986
+[SIMULATION]Half 2, Step 31: Ball position: [1061.1834876   276.58054576]
+[Agent] Player 1 is resting to regain stamina. Current stamina: 6.618499999999976
+[Agent] Player 3 is resting to regain stamina. Current stamina: 12.29649999999995
+[Agent] Player 11 is resting to regain stamina. Current stamina: 7.287999999999949
+[Agent] Player 14 is resting to regain stamina. Current stamina: 5.606000000000005
+[Agent] Player 16 is resting to regain stamina. Current stamina: 6.35900000000002
+[Agent] Player 21 moved to position [ 60.02414297 601.73117593] as per their role.
+[Agent] Player 21 passed the ball to Player 15 at position [842.37056155 573.37899414]
+[SIMULATION]Half 2, Step 32: Ball position: [975.93645199 275.85476564]
+[Agent] Player 1 is resting to regain stamina. Current stamina: 11.618499999999976
+[Agent] Player 3 moved to position [-216.44212559 -805.65017497] as per their role.
+[Agent] Player 11 is resting to regain stamina. Current stamina: 12.287999999999949
+[Agent] Player 12 is resting to regain stamina. Current stamina: 9.103999999999989
+[Agent] Player 14 is resting to regain stamina. Current stamina: 10.606000000000005
+[Agent] Player 16 is resting to regain stamina. Current stamina: 11.35900000000002
+[SIMULATION]Half 2, Step 33: Ball position: [904.91215655 294.80627832]
+[Agent] Player 1 passed the ball to Player 8 at position [399.50146958 465.63218014]
+[Agent] Player 3 is resting to regain stamina. Current stamina: 7.6664999999999495
+[Agent] Player 12 is resting to regain stamina. Current stamina: 14.103999999999989
+[Agent] Player 16 moved to position [-1282.15251141   847.01423102] as per their role.
+[SIMULATION]Half 2, Step 34: Ball position: [948.44072512 642.84400083]
+[Agent] Player 1 is resting to regain stamina. Current stamina: 10.418499999999977
+[Agent] Player 3 is resting to regain stamina. Current stamina: 12.66649999999995
+[Agent] Player 11 is resting to regain stamina. Current stamina: 6.314999999999947
+[Agent] Player 12 passed the ball to Player 17 at position [20.20481611 72.8910839 ]
+[Agent] Player 14 moved to position [-1327.30822849    -4.67821733] as per their role.
+[Agent] Player 16 is resting to regain stamina. Current stamina: 6.189000000000021
+[SIMULATION]Half 2, Step 35: Ball position: [878.41428055 594.94875902]
+[Agent] Player 1 passed the ball to Player 8 at position [399.50146958 465.63218014]
+[Agent] Player 3 moved to position [-234.8654377  -893.01397876] as per their role.
+[Agent] Player 11 is resting to regain stamina. Current stamina: 11.314999999999948
+[Agent] Player 12 is resting to regain stamina. Current stamina: 13.24499999999999
+[Agent] Player 16 is resting to regain stamina. Current stamina: 11.189000000000021
+[SIMULATION]Half 2, Step 36: Ball position: [818.58565697 552.23873471]
+[Agent] Player 1 is resting to regain stamina. Current stamina: 10.218499999999977
+[Agent] Player 3 is resting to regain stamina. Current stamina: 8.036499999999949
+[Agent] Player 16 moved to position [-1088.32995763   720.3824824 ] as per their role.
+[SIMULATION]Half 2, Step 37: Ball position: [775.68083715 521.6101528 ]
+[Agent] Player 3 is resting to regain stamina. Current stamina: 13.036499999999949
+[Agent] Player 11 is resting to regain stamina. Current stamina: 6.054999999999946
+[Agent] Player 12 is resting to regain stamina. Current stamina: 9.06499999999999
+[Agent] Player 16 is resting to regain stamina. Current stamina: 6.019000000000023
+[SIMULATION]Half 2, Step 38: Ball position: [1132.73329848  396.56961072]
+[Agent] Player 1 is resting to regain stamina. Current stamina: 5.408499999999975
+[Agent] Player 3 passed the ball to Player 5 at position [553.77954919 472.6598585 ]
+[Agent] Player 11 is resting to regain stamina. Current stamina: 10.341999999999945
+[Agent] Player 12 is resting to regain stamina. Current stamina: 14.06499999999999
+[Agent] Player 16 is resting to regain stamina. Current stamina: 11.019000000000023
+[SIMULATION]Half 2, Step 39: Ball position: [329.26658057 168.96933249]
+[Agent] Player 1 is resting to regain stamina. Current stamina: 10.408499999999975
+[Agent] Player 3 is resting to regain stamina. Current stamina: 12.154999999999948
+[Agent] Player 11 passed the ball to Player 14 at position [-1327.30822849    -4.67821733]
+[Agent] Player 12 passed the ball to Player 17 at position [20.20481611 72.8910839 ]
+[Agent] Player 16 passed the ball to Player 15 at position [842.37056155 573.37899414]
+[SIMULATION]Half 2, Step 40: Ball position: [483.73111506 443.28060981]
+[Agent] Player 3 passed the ball to Player 5 at position [553.77954919 472.6598585 ]
+[Agent] Player 11 is resting to regain stamina. Current stamina: 10.141999999999946
+[Agent] Player 12 is resting to regain stamina. Current stamina: 13.205999999999992
+[Agent] Player 16 is resting to regain stamina. Current stamina: 9.819000000000024
+[SIMULATION]Half 2, Step 41: Ball position: [364.50130025 342.40132007]
+[Agent] Player 1 is resting to regain stamina. Current stamina: 5.598499999999973
+[Agent] Player 3 is resting to regain stamina. Current stamina: 11.273499999999949
+[Agent] Player 16 is resting to regain stamina. Current stamina: 14.819000000000024
+[SIMULATION]Half 2, Step 42: Ball position: [278.99818458 270.0578916 ]
+[Agent] Player 1 is resting to regain stamina. Current stamina: 10.598499999999973
+[Agent] Player 3 moved to position [-215.65039743 -841.38370199] as per their role.
+[Agent] Player 12 is resting to regain stamina. Current stamina: 9.025999999999993
+[Agent] Player 16 passed the ball to Player 15 at position [842.37056155 573.37899414]
+[SIMULATION]Half 2, Step 43: Ball position: [217.68145102 218.17834669]
+[Agent] Player 3 is resting to regain stamina. Current stamina: 6.643499999999948
+[Agent] Player 12 is resting to regain stamina. Current stamina: 14.025999999999993
+[Agent] Player 16 is resting to regain stamina. Current stamina: 14.619000000000025
+[SIMULATION]Half 2, Step 44: Ball position: [173.70946489 180.9740389 ]
+[SIMULATION]Full Time!
+[SIMULATION]Team A Wins!
+[SIMULATION]Final Rewards:
+[SIMULATION]Team A: {0: 240, 1: 240, 2: 90, 3: 310, 4: 160, 5: 130, 6: 50, 7: 120, 8: 90, 9: 50, 10: 50}
+[SIMULATION]Team B: {11: 240, 12: 310, 13: 10, 14: 190, 15: 30, 16: 200, 17: 70, 18: 140, 19: 0, 20: 20, 21: 200}
+[SIMULATION]Final Scores:	 Team A:4 - Team B:3
