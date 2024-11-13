@@ -77,6 +77,8 @@ You can modify the parameters such as the **half duration**, **player roles**, a
 
 #### **Simulation Module (`simulation.py`)**
 - **Class**: `FootballSimulation`
+
+Further Phases are in different branches of this repository
   - **Attributes**: Field, physics engine, rules, ball, teams, half duration.
   - **Methods**:
     - `assign_roles()`: Assigns roles to players based on formations.
