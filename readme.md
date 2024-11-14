@@ -357,7 +357,7 @@ Each player has 14 traits with positive and negative values ranging from 0 to 1:
   - **visualization/**: Rendering and plotting results.
   - **docs/**: Documentation and user manuals.
 
-'''markdown
+```bash
 root_dir/
 ├── agents/
 │   └── team_agent.py
