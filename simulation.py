@@ -1,4 +1,4 @@
-# environment/simulation.py
+# /simulation.py
 
 import numpy as np
 import datetime
@@ -8,13 +8,15 @@ from environment.rules import GameRules
 from environment.ball import Ball
 from agents.team_agent import TeamAgent
 from environment.player import Player
+import os
 
 class FootballSimulation:
     def __init__(self, half_duration=45):
-        self.log_file = str(f"data/logs/game_log_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.txt")
+        self.log_file = f"data/logs/game_log_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
+        os.makedirs(os.path.dirname(self.log_file), exist_ok=True)
         self.field = FootballField()
         self.physics_engine = PhysicsEngine()
-        self.rules = GameRules(self.field,self.log_event)
+        self.rules = GameRules(self.field, self.log_file)
         self.ball = Ball()
         self.half_duration = half_duration  # Duration of each half in minutes
         self.current_half = 1
@@ -30,8 +32,8 @@ class FootballSimulation:
         ]
 
         # Create Team Agents
-        self.team_a_agent = TeamAgent(self.team_a_players,self.field,self.rules,self.log_file)
-        self.team_b_agent = TeamAgent(self.team_b_players,self.field,self.rules,self.log_file)
+        self.team_a_agent = TeamAgent(self.team_a_players, self.field, self.rules, self.log_file)
+        self.team_b_agent = TeamAgent(self.team_b_players, self.field, self.rules, self.log_file)
 
         # Assign agents to players
         for player in self.team_a_players + self.team_b_players:
@@ -95,7 +97,7 @@ class FootballSimulation:
                         if np.random.rand() < 0.1:  # Random chance to pass
                             target_player = np.random.choice(self.team_a_players if player.team == 'team_a' else self.team_b_players)
                             player.pass_ball(self.ball, target_player.position, force=10)
-                            player.stamina = self.physics_engine.update_stamina(player.stamina, dt, effort_level=0.5, action_type="stand",attr=player.physical_attributes['stamina'])
+                            player.stamina = self.physics_engine.update_stamina(player.stamina, dt, effort_level=0.5, action_type="stand", attr=player.physical_attributes['stamina'])
                             # Reward for successful pass
                             self.update_reward(player.team, player.player_id, 10)
 
@@ -126,6 +128,8 @@ class FootballSimulation:
                 
                 # Log the current state every step (optional for debugging)
                 self.log_event(f"Half {half}, Step {step}: Ball position: {self.ball.get_position()}")
+                for player in self.team_a_players + self.team_b_players:
+                    self.log_event(f"Half {half}, Step {step}: Player {player.player_id} Position: {player.position}, Stamina: {player.stamina}")
                 
             # Half-time reset
             if half == 1:
