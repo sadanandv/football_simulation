@@ -537,4 +537,4 @@ This project aims to create a sophisticated simulation tool that helps coaches u
 
 ---
 
-**Note**: This README provides a comprehensive overview of the project and serves as a guide for development. It should be updated regularly as the project progresses.
+**Note**: This README provides a comprehensive overview of the project and serves as a guide for development. This is sort of a bible to work with for the development of this project.
